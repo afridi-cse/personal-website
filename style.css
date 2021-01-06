@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    height: 50px;
+   
+    background-color: tomato;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+.menu ul{
+    float: right;
+    margin-right: 50px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+}
+.top-banner{
+    padding: 100px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 0 2%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+.text-highlight{
+    color: #FF8367;
+}
+p{
+    color: #3E3E3E;
+}
+.half-width p{
+    margin: 30px 0px 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.last-banner{
+    padding: 100px;
+    background-image: url(images/flores-de-un-manzano-1294.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+h2{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #363958;
+    margin-top: 100px;
+}
+.last-banner p{
+    color: black;
+}
+.project-part{
+    padding: 100px;
+    background-color: rgb(85, 197, 231);
+    overflow: hidden;
+}
+.project-part h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+  
+}
+
+.single-project{
+    width: 30%;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+    box-shadow: 10px 10px 40px rgb(78, 5, 85);
+    border-radius: 10px;
+}
+.single-project img{
+    width: 100%;
+}
+.single-project h3{
+    color: #363958;
+    font-size: 24;
+}
+.experience-part{
+    padding:0px 0px 50px 0px;
+    background-color: rgb(60, 121, 121);
+    overflow: hidden;
+    text-align: center;
+
+}
+.experience-part h2{
+    margin-bottom: 80px;
+}
+.single-experience {
+    width: 30%;
+    float: left;
+    margin-left: 2.8%;
+}
+.single-experience img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 40px green;
+}
+.inquiry-part{
+    padding: 100px;
+}
+.inquiry-part img{
+    width: 100%;
+}
+.inquiry-part h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.inq-img {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.text1 {
+    position: absolute;
+    
+    top: 40%;
+    left: 50px;
+  }
+.text2 {
+    position: absolute;
+    bottom: 45%;
+    right: 50px;
+  }
+
+footer{
+    text-align: center;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+footer img{
+    width: 3%;
+    height: 3%;
+    padding: 0px 10px;
+}
+footer h4{
+    font-size: 36px;
+    color: #363958;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+}
+footer h5{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+    padding: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
